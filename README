@@ -1,0 +1,19 @@
+Frame Bicycler is a lightweight utility for batch processing sequences of pictures. 
+You may want to view your sequence as a movie before distributing it. You may want to pre-process frames before
+animating. You also may want to render off low res (also called "offline") copies of your sequence for previewing or
+uploading to internet web sites. This program attempts to address that need by integrating the wealth of open source
+applications for working with media with the Ruby programming language.
+
+DEPENDENCIES
+
+ruby1.8
+ffmpeg
+mplayer
+mencoder
+imagemagick
+rubygems
+  optiflag
+
+This project was began by Lee Azzarello <lee@rockingtiger.com>. It was influenced by Taryn McLaughlin
+<taryn@rockingtiger.com>. The name is a joke on the very expensive application that sounds similar. The homage is to
+fcheck.
